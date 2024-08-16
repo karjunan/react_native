@@ -1,18 +1,18 @@
-import {StyleSheet, View} from 'react-native'
-import Hero from '../components/Hero.js'
+import { StyleSheet, View } from 'react-native';
+import Hero from '../components/Hero.js';
 
 const HomeScreen = () => {
-    return(
+    return (
         <View style={styles.container}>
-            <Hero></Hero>
-        </View>
-    )
-}
+            <Hero />        
+        </View>        
+    );    
+};
 
-const style = StyleSheet.create( {
+const styles = StyleSheet.create({
     container: {
         flex: 1
     }
-})
+});
 
 export default HomeScreen;
