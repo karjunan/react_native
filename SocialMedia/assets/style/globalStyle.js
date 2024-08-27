@@ -37,6 +37,17 @@ const globalStyle = StyleSheet.create({
     // alignItems: 'center',
     // justifyContent: 'center',
   },
+  userPostOuterContainer: {
+    // backgroundColor: 'green',
+    // width: '340',
+    // height: 100,
+    marginTop: 20,
+    marginHorizontal: 28,
+    marginLeft:30
+    // padding: 9,
+    // alignItems: 'center',
+    // justifyContent: 'center',
+  },
 });
 
 export default globalStyle;
